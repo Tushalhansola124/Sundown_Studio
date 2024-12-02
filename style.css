@@ -247,7 +247,7 @@ nav{
 #gooye{
     width:30vw;
     height: 30vw;
-    background:linear-gradient(to top right,rgb(255, 111, 0),rgba(255, 60, 0, 0.889));
+    background:linear-gradient(to top right,rgba(255, 64, 0, 0.883),rgba(255, 132, 0, 0.786));
     border-radius:50%;
     top:40%;
     left:30%;
@@ -268,4 +268,75 @@ nav{
     to{
         transform: translate(-10%,10%)skew(-12deg);
     }
+}
+#page3{
+    min-height: 100vh;
+    width:100%;
+    background-color: #EFEAE3;
+
+}
+/* #elem{
+    height: 150px;
+    width:100%;
+    position: relative;
+    border-bottom: 1px solid black;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 0 2vw;
+}
+#elem h2{
+    font-size: 3vw;
+    position: relative;
+    z-index: 9;
+}
+#elem,#overlay{
+    height: 100%;
+    width:100%;
+    background-color: orange;
+    position: absolute;
+    left:0;
+    top:-100%;
+    
+}
+#elem:hover #overlay{
+    top:0;
+} */
+#page3 {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #EFEAE3;
+    padding: 4vw 0;
+}
+
+#elem {
+    height: 150px;
+    width: 100%;
+    position: relative;
+
+    border-bottom: 1px solid #38383864;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 0 2vw;
+}
+
+#elem h2 {
+    font-size: 3vw;
+    position: relative;
+    z-index: 9;
+}
+
+#elem #overlay {
+    height: 100%;
+    width: 100%;
+    background-color: orangered;
+    position: absolute;
+    left: 0;
+    top: -100%;
+    transition: all ease 0.25s;
+}
+
+#elem:hover #overlay {
+    top: 0;
 }
