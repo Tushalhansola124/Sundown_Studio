@@ -22,3 +22,35 @@ elems.forEach(function(a){
     fixed.style.background=`url(${image})`;
   })
 })
+
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 3,
+  spaceBetween: 100,
+  freeMode: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
+
+
+function changeImage(imageNumber) {
+  const rightSide = document.getElementById('rightSide');
+  if (imageNumber === 1) {
+      rightSide.style.backgroundImage = "url('https://sundown-ivory.vercel.app/page4-1.webp')";
+  } else if (imageNumber === 2) {
+      rightSide.style.backgroundImage = "url('https://sundown-ivory.vercel.app/page4-2.webp')";
+  }
+  else if(imageNumber===3){
+      rightSide.style.backgroundImage = "url('https://sundown-ivory.vercel.app/page4-3.webp')";  
+  }
+}
+
+function zoomText(element) {
+  element.style.transform = element.style.transform === 'scale(1.5)' 
+      ? 'scale(1)' 
+      : 'scale(1.5)';
+}
+
+// Set initial image
+changeImage(1);
