@@ -646,3 +646,16 @@ nav{
 .interactive-text:hover {
     transform: scale(1.1);
 }
+h5{
+    font-size:12vh;
+    letter-spacing:10px;
+    font-style: italic;
+    font-family:Castellar;
+    color: orangered;
+}
+#bottom{
+    padding-left:37vw;
+    padding-bottom:2vw;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
