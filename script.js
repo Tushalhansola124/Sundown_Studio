@@ -54,3 +54,35 @@ function zoomText(element) {
 
 // Set initial image
 changeImage(1);
+
+
+
+
+
+
+
+// let menu = document.querySelector("nav h1");
+// let full = document.querySelector("#ful-scr");
+// let navImg=document.querySelector("nav img");
+// let flag = 0;
+// menu.addEventListener("click",function(){
+  
+//   if(flag == 0){
+
+//     full.style.top = 0;
+//     navImg.style.opacity = 0;
+//     full.classList.add("full");
+//     flag == 1;
+    
+//   }  
+//   else
+//   {
+//     full.style.top = "-100%";
+//     full.classList.remove("full");
+//     navImg.style.opacity = 1;
+//     flag == 0;
+    
+//   }
+  
+// })
+
